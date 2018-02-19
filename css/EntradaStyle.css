@@ -1,0 +1,233 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+body{
+    margin: 0%;
+}
+.PageHeader{
+    background-color: #333333;
+    margin-bottom: 2px ;
+    display: flex;
+    padding-bottom: 0%;
+}
+.PageHeader a:visited{
+    color :white;
+}
+.LogoImageFigure{
+    padding: 0%;
+    width: 4%;
+}
+.PageHeaderLogoText{
+    height: 5%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.PageHeaderUserNameProfileImage{
+    margin-left: 35%;
+    color: white;
+    margin-right: 2%;
+
+}
+.PageHeaderUserNameText,.logoTexLink , .LogOutLink{
+    color :white;
+}
+.LogOut{
+    padding-top: 40px;
+}
+.PageHeaderUserImage{
+    padding-left: 10px;
+}
+.navegationBar{
+    background-color:#333;
+
+}
+ul.topnav {
+    list-style-type: none;
+    margin-left:40%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:  #ffccb3;}
+
+ul.topnav li a.active {background-color: #ff5050;}
+
+ul.topnav li.right {float: right;}
+
+
+.FriendsSection{
+    height: 160px;
+    background: white;
+    box-shadow: 2px 2px 2px #888888;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section.FriendsSection:hover{
+    box-shadow: 4px 4px 4px #888888;
+
+}
+.FriendListHeader{
+    width:100%;
+    background-color: #333;
+    margin-top: 1%;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 2px ;
+}
+
+.FriendListHeaderTitle {
+    color:white;
+    width:5.5%;
+    margin-left: 2%;
+}
+
+table.FriendsTable{
+    margin-left: 2%;
+    width:90%;
+}
+article.FriendsTableArticle{
+    overflow-y: scroll;
+    height: 135px;
+}
+
+/* Friends Posts  */
+
+
+img{
+    border-radius: 2px;
+}
+
+a:visited {
+    color: black;
+}
+.middleBody{
+    display: flex;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.PostSection{
+    box-shadow: 2px 2px 2px 2px #888888;
+    width: 60%;
+    height: 90%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+}
+.PostSectionHeader{
+    width: 100%;
+    background:#333 ;
+    color:white;
+}
+.PostSectionHeaderTitle{
+    padding-left: 2%;
+}
+
+.PostArticle{
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px #888888;
+    padding: 10px 10px 10px 10px;
+}
+.PostImage{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 98%;
+}
+.hour{
+    margin-left: 5%;
+}
+.listOfComments{
+    box-shadow: 1px 1px 1px 1px #888888;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    padding: 1% 1% 1% 1%;
+    height: 142px;
+    overflow-y: scroll;
+}
+.UserNameImageDate{
+    margin-bottom: 1%;
+}
+.CommentUserName , .PostUserName,.CommentUserProfileImage , .PutCommentBoxShadow {
+    display: inline;
+}
+.PutCommentForm{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.PutCommentBoxShadow{
+    display: inline;
+    width: 80%;
+    margin-bottom:1% ;
+}
+.PutCommentProfileImage{
+    margin-bottom: -1%;
+}
+.listOfComments li , .ActiveUsersList li{
+    list-style-type: none;
+    box-shadow: 1px 1px 1px 1px #888888;
+    margin-bottom: 1%;
+}
+.ActiveUsersSection{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    flex: 1;
+    height: 70%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.ActiveUseresSectionaHeader{
+    background-color: #333333;
+    color : white;
+    margin-bottom: 3%;
+}
+
+
+.ActiveUsersList{
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 620px;
+    width:95%;
+    overflow-y: scroll;
+}
+.PageFooter{
+    background-color: #333333 ;
+    height: auto;
+    color: white;
+    border-radius: 1px;
+}
+@media screen and (max-width: 600px){
+    ul.topnav {
+        width: 100%;
+    }
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}

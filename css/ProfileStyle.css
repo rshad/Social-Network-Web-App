@@ -1,0 +1,267 @@
+
+body{
+    margin: 0%;
+    padding-bottom: 0%;
+}
+.PageHeader{
+    background-color: #333333;
+    margin-bottom: 2px ;
+    display: flex;
+    padding-bottom: 0%;
+}
+.PageHeader a:visited{
+    color :white;
+}
+.LogoImageFigure{
+    padding: 0%;
+    width: 4%;
+}
+.PageHeaderLogoText{
+    height: 5%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.PageHeaderUserNameProfileImage{
+    margin-left: 40%;
+    color: white;
+
+}
+.PageHeaderUserNameText,.logoTexLink , .LogOutLink{
+    color :white;
+}
+.LogOut{
+    padding-top: 40px;
+}
+.PageHeaderUserImage{
+    padding-left: 20px;
+}
+
+
+.navegationBar{
+    background-color:#333;
+
+}
+ul.topnav {
+    list-style-type: none;
+    margin-left:40%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:  #ffccb3;}
+
+ul.topnav li a.active {background-color: #ff5050;}
+
+ul.topnav li.right {float: right;}
+
+
+.FriendsSection{
+    height: 160px;
+    background: white;
+    box-shadow: 2px 2px 2px #888888;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section.FriendsSection:hover{
+    box-shadow: 4px 4px 4px #888888;
+
+}
+.FriendListHeader{
+    width:100%;
+    background-color: #333;
+    margin-top: 1%;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 2px ;
+}
+
+.FriendListHeaderTitle {
+    color:white;
+    width:5.5%;
+    margin-left: 2%;
+}
+
+table.FriendsTable{
+    margin-left: 2%;
+    width:90%;
+}
+article.FriendsTableArticle{
+    overflow-y: scroll;
+    height: 135px;
+}
+
+/* Friends Posts  */
+
+
+img{
+    border-radius: 2px;
+}
+
+a:visited {
+    color: black;
+}
+.middleBody{
+    display: flex;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 6%;
+}
+.LeftMainBody{
+    width: 80%;
+}
+.MakePost{
+    width: 85%;
+    padding-left: 0%;
+    display: flex;
+}
+.UserNameProfileImage{
+    flex:1;
+    box-shadow: 1px 1px 1px 1px #888888;
+    margin-top: 1%;
+}
+.userImageFigure{
+    margin-left: 20%;
+}
+.UserNameText{
+    margin-top: 10%;
+    width: 100px;
+    margin-left: 5%;
+}
+.PostMaterialPart{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.MakePostMaterialTilte{
+    padding-left: 35%;
+    padding-right: 30%;
+    box-shadow: 1px 1px 1px 1px #888888;
+    background-color: #333333;
+    color: white;
+
+}
+.PostTextImageForm{
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.PostTextImageForm input[type='text']{
+    width: 99%;
+}
+.postImage{
+    margin:0 0 0 0;
+}
+.PostsSection{
+    width: 85%;
+    height: 350px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 0%;
+    padding-right: 1%;
+
+}
+.PostSectionHeader{
+    background-color: #333333;
+    color : white;
+    margin-bottom: 1%;
+}
+.PostText{
+    width: 250px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+
+}
+.FiendPostArticle{
+    border-radius:2px ;
+    width: 95%;
+    height: 29%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 2px 2px #888888 ;
+    padding-left: 2%;
+}
+.PostSectionHeaderTitle , .ActiveUseresSectionaHeaderTitle{
+    margin-left: 2%;
+}
+a.changePostPageArrow{
+    width: 100px;
+}
+.PostsPartFooter{
+    margin-top: 3%;
+    padding-left: 50%;
+}
+
+
+.ActiveUsersSection{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 0%;
+    flex: 1;
+    height: 450px;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+.ActiveUseresSectionaHeader{
+    background-color: #333333;
+    color : white;
+    margin-bottom: 3%;
+}
+
+
+.ActiveUsersList{
+    margin-left: 1%;
+    margin-right: 1%;
+    width:95%;
+    height: 420px;
+    overflow-y: scroll;
+}
+.PostSubmit{
+    border:1px solid #1D3871;
+    border-radius: 5px;
+    width:10%;
+    background-color: #ff5050;
+    font-size:14px;
+    line-height:25px;
+    font-weight:normal;
+    color:#fff;
+
+}
+.inputfileLabel {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+    background-color: #ff5050;
+    color: white;
+    margin-left: 0%;
+    margin-right: 74%;
+    width: 133px;
+    border: 1px solid #1D3871 ;
+    border-radius: 5px;
+}
+
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: #ff5050;
+}
+.PageFooter{
+    background-color: #333333 ;
+    height: auto;
+    color: white;
+    border-radius: 1px;
+    margin-bottom: -20%;
+}

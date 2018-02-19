@@ -1,0 +1,147 @@
+
+.PageHeaderUserNameProfileImage{
+    margin-left: 35%;
+    color: white;
+
+}
+.PageHeaderUserNameText,.logoTexLink , .LogOutLink{
+    color :white;
+}
+.PageHeaderUserNameText{
+    margin-left: 43%;
+}
+.LogOut{
+    padding-top: 40px;
+    margin-left: 1%;
+}
+.PageHeaderUserImage{
+    padding-left: 20px;
+}
+
+
+.navegationBar{
+    background-color:#333;
+
+}
+ul.topnav {
+    list-style-type: none;
+    margin-left:40%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color:  #ffccb3;}
+
+ul.topnav li a.active {background-color: #ff5050;}
+
+ul.topnav li.right {float: right;}
+
+img{
+    border-radius: 2px;
+}
+
+a:visited {
+    color: black;
+}
+.middleBody{
+    display: flex;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 6%;
+}
+
+.RegisteringFormSection{
+    margin-top: 1%;
+    width: 40%;
+    height: 60%;
+    padding-right: 10%;
+    margin-left: 25%;
+
+}
+.RegisteringForm{
+    width: 65%;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 33%;
+    box-shadow: 1px 1px 1px 1px #333333;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.RegisteringForm .inputtext{
+    background-color: #FFFFFF;
+    height:20px;
+    width: 90%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    border:1px solid #3A518A;
+    border-radius: 5px;
+}
+.label{
+    margin-left: 5%;
+    border: 1px solid black;
+}
+.SignUp{
+    margin-left: 56%;
+}
+.UserNameText , .UserNameTextotheruser{
+    margin-left: 42%;
+}
+.UserImage{
+    margin-left: 40%;
+}
+.inputfile{
+
+}
+.signUpButton{
+    border:1px solid #1D3871; border-radius: 5px;  width:50%; background-color: #ff5050; font-size:14px; line-height:25px; font-weight:normal; color:#fff;
+}
+.PageFooter {
+    background-color: #333333 ;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: -2%;
+    color: white;
+    border-radius: 1px;
+
+}
+.PageFooterOtherUser {
+    background-color: #333333 ;
+    height: auto;
+    margin-top: 11%;
+    color: white;
+    border-radius: 1px;
+}
+.PageFooter a,.PageFooterOtherUser a{
+    color : white
+}
+.inputfileLabel {
+    cursor: pointer;
+    /* Style as you please, it will become the visible UI component. */
+    background-color: #ff5050;
+    color: white;
+    margin-left: 38%;
+    width: 133px;
+    border: 1px solid #1D3871 ;
+    border-radius: 5px;
+}
+
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: #ff5050;
+}
