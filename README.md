@@ -6,6 +6,6 @@ This project represents my first experience in web programming area. I wanted in
 , dealing with all the basic related operations with the Front/Back End programming.
 
 #### Project Description:
-In this project I used PHP for the Back End design and Javascript, JQuery for the Front End design and HTML5 and CSS3 for the basic pages "User Interface" design.
+In this project I used PHP and MySQL for the Back End design and Javascript, JQuery for the Front End design and HTML5 and CSS3 for the basic pages "User Interface" design.
 
 
