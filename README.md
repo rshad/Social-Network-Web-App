@@ -1,5 +1,5 @@
 ## Social network - Web-App
-Category: Web Application - Subject: This project consists in the implementing of a basic operations's social red
+Category: Web Application - Subject: This project consists in the implementing of a basic operations's social network
 
 #### Project Story:
 This project represents my first experience in web programming area. I wanted in this project to implement a simple social network
